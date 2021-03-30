@@ -1,0 +1,56 @@
+body {
+    background-color: lightblue;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    float:left;
+
+}
+
+.box1{
+    background-color: pink;
+
+}
+
+
+.box2{
+    background-color: red;
+
+}
+
+.box3{
+    background-color: firebrick;
+
+}
+
+.box4{
+    background-color: orange;
+
+}
+
+.box5{
+    background-color: yellow;
+    clear:both;
+}
+
+.box6{
+    background-color: lawngreen;
+
+}
+
+
+.box7{
+    background-color: green;
+
+}
+.box8{
+    background-color: blue;
+
+}
+
+.box9{
+    background-color: purple;
+
+}
