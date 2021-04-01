@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Grids</title>
+    <style>
+
+        .wrapper{
+            display:grid;
+            grid-template-columns: 70% 30%;
+            /*
+            grid-column-gap: 1em;
+            grid-row-gap: 1em;
+
+
+             */
+            grid-gap: 1em;
+        }
+
+        .wrapper > div {
+            background: #eee;
+            padding:1em;
+
+        }
+
+        .wrapper > div:nth-child(odd){
+        background:#ddd;
+        }
+
+
+    </style>
+</head>
+<body>
+<!--grids is 2 dimensional layout whereas flex is one dimensional-->
+
+<div class = "wrapper">
+
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+        do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Sed libero enim sed faucibus turpis in eu mi bibendum. Rhoncus
+        aenean vel elit scelerisque. Adipiscing vitae proin sagittis
+        nisl rhoncus mattis. Nullam ac tortor vitae purus faucibus ornare
+        suspendisse sed. Mauris rhoncus aenean vel elit scelerisque mauris
+        pellentesque. Blandit aliquam etiam erat velit scelerisque. Nascetur r
+        idiculus mus mauris vitae ultricies leo. Malesuada pellentesque elit
+        eget gravida cum. Etiam tempor orci eu lobortis elementum nibh tellus.
+        Senectus et netus et malesuada fames ac. Id aliquet risus feugiat in ante.
+        Fringilla ut morbi tincidunt augue interdum velit euismod. Aliquet
+        eget sit amet tellus cras adipiscing enim eu turpis.
+        In nulla posuere sollicitudin aliquam ultrices sagittis orci a.
+    </div>
+
+    <div>
+        Et netus et malesuada fames ac turpis egestas. Habitasse platea
+        dictumst quisque sagittis purus. Malesuada fames ac turpis egestas
+        sed. Fringilla ut morbi tincidunt augue interdum velit euismod in.
+        Vitae turpis massa sed elementum tempus egestas sed. Turpis massa
+        sed elementum tempus egestas sed sed risus pretium. Fermentum iaculis
+        eu non diam phasellus vestibulum lorem sed. Enim sed faucibus turpis
+        in eu mi bibendum neque. Enim blandit volutpat maecenas
+        volutpat blandit. Sit amet purus gravida quis blandit turpis cursus.
+    </div>
+
+
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+        do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Sed libero enim sed faucibus turpis in eu mi bibendum. Rhoncus
+        aenean vel elit scelerisque. Adipiscing vitae proin sagittis
+        nisl rhoncus mattis. Nullam ac tortor vitae purus faucibus ornare
+        suspendisse sed. Mauris rhoncus aenean vel elit scelerisque mauris
+        pellentesque. Blandit aliquam etiam erat velit scelerisque. Nascetur r
+        idiculus mus mauris vitae ultricies leo. Malesuada pellentesque elit
+        eget gravida cum. Etiam tempor orci eu lobortis elementum nibh tellus.
+        Senectus et netus et malesuada fames ac. Id aliquet risus feugiat in ante.
+        Fringilla ut morbi tincidunt augue interdum velit euismod. Aliquet
+        eget sit amet tellus cras adipiscing enim eu turpis.
+        In nulla posuere sollicitudin aliquam ultrices sagittis orci a.
+    </div>
+
+    <div>
+        Et netus et malesuada fames ac turpis egestas. Habitasse platea
+        dictumst quisque sagittis purus. Malesuada fames ac turpis egestas
+        sed. Fringilla ut morbi tincidunt augue interdum velit euismod in.
+        Vitae turpis massa sed elementum tempus egestas sed. Turpis massa
+        sed elementum tempus egestas sed sed risus pretium. Fermentum iaculis
+        eu non diam phasellus vestibulum lorem sed. Enim sed faucibus turpis
+        in eu mi bibendum neque. Enim blandit volutpat maecenas
+        volutpat blandit. Sit amet purus gravida quis blandit turpis cursus.
+    </div>
+
+
+
+</div>
+
+</body>
+</html>
